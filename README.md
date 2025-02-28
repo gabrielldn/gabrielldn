@@ -2,7 +2,7 @@
 
 <div align ="center">  
   
-[![Intro](https://readme-typing-svg.demolab.com?font=Source+Code+Pro&duration=4000&pause=1000&color=FFFFFF&center=true&vCenter=true&random=false&width=435&lines=I+am+a+Backend+Developer!!!;I+%E2%9D%A4%EF%B8%8F+Open+Source!!!;I+Work+primarily+in+Spring+Boot)](https://git.io/typing-svg)
+[![Intro](https://readme-typing-svg.demolab.com?font=Source+Code+Pro&duration=4000&pause=1000&color=FFFFFF&center=true&vCenter=true&random=false&width=435&lines=I+am+a+DevOps+Engineer!!!;I+%E2%9D%A4%EF%B8%8F+Open+Source!!!;I+am+a+DevOps+Engineer!!!)](https://git.io/typing-svg)
 </div>
 
 <div align ="center">
@@ -13,25 +13,26 @@
 </div>
 <br>
 <div align ="center">
-  
-[![Linkedin Badge](https://img.shields.io/badge/-gabrielldn-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabrielldn/)](https://www.linkedin.com/in/gabrielldn/)
-[![Medium Badge](https://img.shields.io/badge/-@mahesh.babu11-000000?style=flat&labelColor=000000&logo=Medium&link=https://medium.com/@mahesh.babu11)](https://medium.com/@mahesh.babu11)
-[![Website Badge](https://img.shields.io/badge/-gabrielldn.dev-47CCCC?style=flat&logo=Google-Chrome&logoColor=white&link=https://gabrielldn.dev/)](https://gabrielldn.dev/)
-[![Instagram Badge](https://img.shields.io/badge/-@m_r.coder-purple?style=flat&logo=instagram&logoColor=white&link=https://instagram.com/m_r.coder/)](https://instagram.com/m_r.coder)
-[![Gmail Badge](https://img.shields.io/badge/-mahesh.b.pec-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:mahesh.b.pec@gmail.com)](mailto:mahesh.b.pec@gmail.com)
-![DEV.TO](https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=flat&logo=dev-dot-to&logoColor=white&link=https://dev.to/gabrielldn)
+  <a href="mailto:gaellopes@protonmail.com">
+    <img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white" alt="Protonmail"/>
+  </a>
+  <a href="https://www.linkedin.com/in/gael-lopes/">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
 </div>
-<div align="center">
+
+<!--<div align="center">
   <a href="https://www.buymeacoffee.com/gabrielldn" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;"></a>
 </div>
+-->
 
 ## 😊 About Me
 
 <img src ="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" align = right height = 200 width = 300/>
 
-- 🔭 I’m currently working on  **Backend Development** with java
-- :neutral_face: I **love**  programming and tinkering with new technologies
-- 🌱 I’m currently Working with **Spring Boot, Azure**
+- 🔭 I’m currently working as a **DevOps Engineer** at the Government of the State of Ceará
+- 😊 I **love** programming and tinkering with new technologies
+- 🌱 I’m currently Working with **Terraform, Ansible, Docker Bash**
 - 🎓 I’m currently learning Batch Processing ,Caching mechanisms and search optimizations
 - 💬 Ask me about anything, I am happy to help
 - ⚡ Always looking for new challenges
