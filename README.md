@@ -1,8 +1,8 @@
-<h2 align="center"> Hi 👋, I'm Gael</h2>
+<h2 align="center"> Hi 👋, I'm Gael Lopes</h2>
 
 <div align ="center">  
   
-[![Intro](https://readme-typing-svg.demolab.com?font=Source+Code+Pro&duration=4000&pause=1000&color=FFFFFF&center=true&vCenter=true&random=false&width=435&lines=I+am+a+DevOps+Engineer!!!;I+%E2%9D%A4%EF%B8%8F+Open+Source!!!;I+am+a+DevOps+Engineer!!!)](https://git.io/typing-svg)
+[![Intro](https://readme-typing-svg.demolab.com?font=Source+Code+Pro&duration=4000&pause=1000&color=FFFFFF&center=true&vCenter=true&random=false&width=435&lines=I+am+a+DevOps+Engineer!!!;I+%E2%9D%A4%EF%B8%8F+Open+Source!!!)](https://git.io/typing-svg)
 </div>
 
 <div align ="center">
