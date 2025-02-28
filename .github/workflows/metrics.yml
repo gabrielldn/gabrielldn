@@ -1,0 +1,21 @@
+name: Metric Card
+
+on:
+  schedule: # 03:00 JST == 18:00 UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+jobs:
+  display_metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate Metric card
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.achievements.svg
+          token: ${{ secrets.GITHUB_TOKEN  }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_only: >-
+            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+            scripter, packager, explorer, infographile, manager
