@@ -30,14 +30,17 @@
 
 <img src ="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" align = right height = 200 width = 300/>
 
-- 🔭 I’m currently working as a **DevOps Engineer** at the Government of the State of Ceará
-- 😊 I **love** programming and tinkering with new technologies
-- 🌱 I’m currently Working with **Terraform, Ansible, Docker Bash**
-- 🎓 I’m currently learning **AIOps and SASP**
-- 💬 Ask me about anything, I am happy to help
-- ⚡ Always looking for new challenges
-- 💡 I write occasionally on [Medium](https://medium.com/meuuser) regarding tech and web DevSecOps 🌐👨🏻‍💻
-- 🌐 Visit my [porfolio website](https://gabrielldn.github.io/) for complete background and contact.
+- 🔭 **Currently, I work as a DevOps Engineer at the Government of the State of Ceará**, focusing on continuous integration and delivery, while integrating security throughout the lifecycle.  
+- 😊 **I love programming and exploring new technologies**, always seeking to expand my skills and tackle new challenges.  
+- 🌱 **I work with Terraform, Ansible, Docker, and Bash**, implementing Infrastructure as Code and automation to streamline processes securely.  
+- 🎓 **Currently learning AIOps (Vertical AI) and SAP**, while diving deeper into the security aspects of IT operations and application deployment.  
+- 🔐 **In my DevSecOps journey, I focus on integrating security into the DevOps pipeline using tools like HashiCorp Vault, OWASP ZAP, and SonarQube** to ensure robust and secure deployments.  
+- ⚙️ **I also work with CI/CD tools such as Jenkins and Github Actions, automating security checks with tools like SAST and DAST** to identify vulnerabilities early in the development process.
+- 💬 **Feel free to reach out to discuss anything related to DevOps, DevSecOps, and Full Cycle development**—I’m always happy to collaborate and share insights.  
+- ⚡ **Always looking for new challenges, particularly those that combine security, automation, and cloud technologies**.  
+- 💡 **I occasionally write on [Medium](https://medium.com/@gabrielldn) about technology, web development, DevSecOps practices, and IT security**, sharing tips and experiences.  
+- 🌐 **Visit my [portfolio](https://gabriellopes.cloud/) to learn more about my background and contact me for collaborations.**
+
 
 ## 🔨 Languages and Tools:
 
@@ -76,7 +79,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" alt="Debian" width="40" height="40"/> 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" width="40" height="40"/> 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" alt="Nginx" width="40" height="40"/> 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40"/> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40"/>
 
 </div>
 
@@ -104,15 +107,15 @@
   <a target="_blank" href="https://github-readme-medium-recent-article-plugin.vercel.app/medium/@araji/1"><img src="https://github-readme-medium-recent-article-plugin.vercel.app/medium/@araji/1" alt="Recent Article 2"> 
 </div>
 
-## 🏆 Github Trophies
+<!-- ## 🏆 Github Trophies
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=gabrielldn&theme=radical&title=MultiLanguage,Stars,Commits,Repositories,Experience,Followers,PullRequest,Issues)](https://github.com/gabrielldn/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=gabrielldn&theme=radical&title=MultiLanguage,Commits,Repositories,PullRequest)](https://github.com/gabrielldn/github-profile-trophy) -->
 
-## 🥽 3-D Contribution graph
+<!-- ## 🥽 3-D Contribution graph
 
-<img src="https://github.com/gabrielldn/gabrielldn/blob/main/profile-3d-contrib/profile-night-rainbow.svg"/>
+<img src="https://github.com/gabrielldn/gabrielldn/blob/main/profile-3d-contrib/profile-night-rainbow.svg"/> -->
 
-<!--- ## :octocat: Github Unwrapped 2023 (Click to see the full 🎥)
+<!-- - ## :octocat: Github Unwrapped 2023 (Click to see the full 🎥)
 <div align="center">
    <a href="https://vimeo.com/897888293">
     <img src="https://github.com/gabrielldn/gabrielldn/blob/main/assets/unwrapped.gif" alt="unwrapped 2023" height="500" width="400">
