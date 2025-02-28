@@ -1,4 +1,4 @@
-<h2 align="center"> Hi 👋, I'm Mahesh</h2>
+<h2 align="center"> Hi 👋, I'm Gael</h2>
 
 <div align ="center">  
   
@@ -9,20 +9,20 @@
  <em> Visitor count 👇</em>
   <br>
   <br>
-  <img src="http://anime-page-counter.glitch.me/get/@:maheshbabu11" alt=":maheshbabu11"/>
+  <img src="http://anime-page-counter.glitch.me/get/@:gabrielldn" alt=":gabrielldn"/>
 </div>
 <br>
 <div align ="center">
   
-[![Linkedin Badge](https://img.shields.io/badge/-maheshbabu11-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/maheshbabu11/)](https://www.linkedin.com/in/maheshbabu11/)
+[![Linkedin Badge](https://img.shields.io/badge/-gabrielldn-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabrielldn/)](https://www.linkedin.com/in/gabrielldn/)
 [![Medium Badge](https://img.shields.io/badge/-@mahesh.babu11-000000?style=flat&labelColor=000000&logo=Medium&link=https://medium.com/@mahesh.babu11)](https://medium.com/@mahesh.babu11)
-[![Website Badge](https://img.shields.io/badge/-maheshbabu11.dev-47CCCC?style=flat&logo=Google-Chrome&logoColor=white&link=https://maheshbabu11.dev/)](https://maheshbabu11.dev/)
+[![Website Badge](https://img.shields.io/badge/-gabrielldn.dev-47CCCC?style=flat&logo=Google-Chrome&logoColor=white&link=https://gabrielldn.dev/)](https://gabrielldn.dev/)
 [![Instagram Badge](https://img.shields.io/badge/-@m_r.coder-purple?style=flat&logo=instagram&logoColor=white&link=https://instagram.com/m_r.coder/)](https://instagram.com/m_r.coder)
 [![Gmail Badge](https://img.shields.io/badge/-mahesh.b.pec-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:mahesh.b.pec@gmail.com)](mailto:mahesh.b.pec@gmail.com)
-![DEV.TO](https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=flat&logo=dev-dot-to&logoColor=white&link=https://dev.to/maheshbabu11)
+![DEV.TO](https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=flat&logo=dev-dot-to&logoColor=white&link=https://dev.to/gabrielldn)
 </div>
 <div align="center">
-  <a href="https://www.buymeacoffee.com/maheshbabu11" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;"></a>
+  <a href="https://www.buymeacoffee.com/gabrielldn" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;"></a>
 </div>
 
 ## 😊 About Me
@@ -38,7 +38,7 @@
 - 😄 Pronouns: **He/Him** 
 - :bulb: I write occasionally on [Medium](https://medium.com/@mahesh.babu11) regarding tech and web development 🌐👨🏻‍💻
 - 🏆 Microsoft Azure Certified Developer Associate.
-- 🌐 Visit my [porfolio website](https://maheshbabu11.github.io/) for complete background and contact.
+- 🌐 Visit my [porfolio website](https://gabrielldn.github.io/) for complete background and contact.
 
 ## 🔨 Languages and Tools:
 
@@ -80,9 +80,9 @@
 ## 📊 Github Stats
 
 <div name ="stats">
-  <img src ="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=maheshbabu11&theme=radical"/>
-  <img src ="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=maheshbabu11&theme=radical"/>
-  <img src ="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=maheshbabu11&theme=radical"/>
+  <img src ="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gabrielldn&theme=radical"/>
+  <img src ="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=gabrielldn&theme=radical"/>
+  <img src ="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=gabrielldn&theme=radical"/>
 </div>
 
 ## ✍️ Latest Medium articles
@@ -91,7 +91,7 @@
         <img src="https://medium-writer-card.vercel.app/api/medium/user/index?name=mahesh.babu11" alt="medium user card">
     </a>
     &nbsp;&nbsp;&nbsp;
-    <img src="https://github.com/MaheshBabu11/MaheshBabu11/blob/main/assets/749f.gif" height="300">
+    <img src="https://github.com/gabrielldn/gabrielldn/blob/main/assets/749f.gif" height="300">
 </div>
 <br>
 
@@ -102,16 +102,16 @@
 
 ## 🏆 Github Trophies
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=maheshbabu11&theme=radical&title=MultiLanguage,Stars,Commits,Repositories,Experience,Followers,PullRequest,Issues)](https://github.com/maheshbabu11/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=gabrielldn&theme=radical&title=MultiLanguage,Stars,Commits,Repositories,Experience,Followers,PullRequest,Issues)](https://github.com/gabrielldn/github-profile-trophy)
 
 ## 🥽 3-D Contribution graph
 
-<img src="https://github.com/MaheshBabu11/MaheshBabu11/blob/main/profile-3d-contrib/profile-night-rainbow.svg"/>
+<img src="https://github.com/gabrielldn/gabrielldn/blob/main/profile-3d-contrib/profile-night-rainbow.svg"/>
 
 <!--- ## :octocat: Github Unwrapped 2023 (Click to see the full 🎥)
 <div align="center">
    <a href="https://vimeo.com/897888293">
-    <img src="https://github.com/MaheshBabu11/MaheshBabu11/blob/main/assets/unwrapped.gif" alt="unwrapped 2023" height="500" width="400">
+    <img src="https://github.com/gabrielldn/gabrielldn/blob/main/assets/unwrapped.gif" alt="unwrapped 2023" height="500" width="400">
   </a>
 </div> -->
 
