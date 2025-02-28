@@ -85,11 +85,9 @@
 <div name ="stats" align="center">
   <img src ="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gabrielldn&theme=radical"/>
   <img src ="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=gabrielldn&theme=radical"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=gabrielldn&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=10&theme=radical&hide_border=false&order=2" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=gabrielldn&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=10&theme=radical&hide_border=true&order=2" height="200" alt="languages graph"  />
 </div>
 
-###  
-</div>
 
 ## ✍️ Latest Medium articles
 <div align="center">
