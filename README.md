@@ -5,12 +5,12 @@
 [![Intro](https://readme-typing-svg.demolab.com?font=Source+Code+Pro&duration=4000&pause=1000&color=FFFFFF&center=true&vCenter=true&random=false&width=435&lines=I+am+a+DevOps+Engineer!!!;I+%E2%9D%A4%EF%B8%8F+Open+Source!!!)](https://git.io/typing-svg)
 </div>
 
-<div align ="center">
+<!-- <div align ="center">
  <em> Visitor count 👇</em>
   <br>
   <br>
   <img src="http://anime-page-counter.glitch.me/get/@:gabrielldn" alt=":gabrielldn"/>
-</div>
+</div> -->
 <br>
 <div align ="center">
   <a href="mailto:gaellopes@protonmail.com">
@@ -92,7 +92,7 @@
 </div>
 
 
-## ✍️ Latest Medium articles
+<!-- ## ✍️ Latest Medium articles
 <div align="center">
     <a target="_blank" href="https://medium.com/@gabrielldn">
         <img src="https://medium-writer-card.vercel.app/api/medium/user/index?name=gabrielldn" alt="medium user card">
@@ -105,7 +105,7 @@
 <div name = "medium" align ="left">
   <a target="_blank" href="https://github-readme-medium-recent-article-plugin.vercel.app/medium/@araji/0"><img src="https://github-readme-medium-recent-article-plugin.vercel.app/medium/@araji/0" alt="Recent Article 1">    
   <a target="_blank" href="https://github-readme-medium-recent-article-plugin.vercel.app/medium/@araji/1"><img src="https://github-readme-medium-recent-article-plugin.vercel.app/medium/@araji/1" alt="Recent Article 2"> 
-</div>
+</div> -->
 
 <!-- ## 🏆 Github Trophies
 
