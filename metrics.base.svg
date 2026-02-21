@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="Metrics placeholder">
+  <rect width="900" height="220" fill="#0d1117"/>
+  <rect x="18" y="18" width="864" height="184" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text x="36" y="85" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">
+    GitHub Stats (Action-generated)
+  </text>
+  <text x="36" y="125" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="16">
+    Run workflow "Metrics" or wait for schedule to generate private-aware metrics.
+  </text>
+  <text x="36" y="155" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="16">
+    Configure repository secret: METRICS_TOKEN (repo + read:org + read:user).
+  </text>
+</svg>
