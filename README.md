@@ -142,29 +142,6 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=gabrielldn&theme=radical&utcOffset=-3" alt="productive time"/>
 </div>
 
-## ✍️ Latest Medium articles
-<div align="center">
-  <a target="_blank" href="https://medium.com/@gabrielldn">
-    <img src="https://img.shields.io/badge/Read%20my%20articles-on%20Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="read my Medium articles">
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a target="_blank" href="https://medium.com/@gabrielldn">
-    <img src="https://img.shields.io/badge/Follow-%40gabrielldn-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="follow on Medium">
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/gabrielldn/gabrielldn/blob/main/assets/749f.gif" height="300">
-</div>
-<br>
-
-<div align="left">
-  <a target="_blank" href="https://medium.com/@gabrielldn">
-    <img src="https://img.shields.io/badge/Medium-View%20latest%20posts-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Recent Article 1">
-  </a>
-  <a target="_blank" href="https://medium.com/@gabrielldn">
-    <img src="https://img.shields.io/badge/Medium-Open%20profile-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Recent Article 2">
-  </a>
-</div>
-
 ## 🏆 GitHub Trophies
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=gabrielldn&theme=radical&hide_border=true" alt="github streak stats"/>
