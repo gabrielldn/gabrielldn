@@ -80,11 +80,18 @@
 ## 🔐 Security & Quality Gates (DevSecOps)
 
 <div align="left">
-  <img src="https://img.shields.io/badge/SAST-SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white" alt="SAST - SonarQube"/>
-  <img src="https://img.shields.io/badge/SCA-Snyk-4C4A73?style=for-the-badge&logo=snyk&logoColor=white" alt="SCA - Snyk"/>
-  <img src="https://img.shields.io/badge/DAST-OWASP_ZAP-000000?style=for-the-badge&logo=owasp&logoColor=white" alt="DAST - OWASP ZAP"/>
-  <img src="https://img.shields.io/badge/SBOM-CycloneDX-0B0B0B?style=for-the-badge&logo=cyclonedx&logoColor=white" alt="SBOM - CycloneDX"/>
-  <img src="https://img.shields.io/badge/Signing-Sigstore_Cosign-2E2E2E?style=for-the-badge&logo=sigstore&logoColor=white" alt="Sigstore Cosign"/>
+  <img src="https://img.shields.io/badge/SAST-SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white" alt="SAST - SonarQube"/>
+  <img src="https://img.shields.io/badge/SCA-Snyk-4C4A73?style=flat-square&logo=snyk&logoColor=white" alt="SCA - Snyk"/>
+  <img src="https://img.shields.io/badge/SCA-Dependabot-181717?style=flat-square&logo=github&logoColor=white" alt="SCA - Dependabot"/>
+  <img src="https://img.shields.io/badge/SCA-OWASP_Dependency--Check-000000?style=flat-square&logo=owasp&logoColor=white" alt="SCA - OWASP Dependency-Check"/>
+  <img src="https://img.shields.io/badge/Container_Scan-Trivy-1904DA?style=flat-square&logo=aqua&logoColor=white" alt="Container Scan - Trivy"/>
+  <img src="https://img.shields.io/badge/DAST-OWASP_ZAP-000000?style=flat-square&logo=owasp&logoColor=white" alt="DAST - OWASP ZAP"/>
+  <img src="https://img.shields.io/badge/IAST-Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white" alt="IAST - Burp Suite"/>
+  <img src="https://img.shields.io/badge/SBOM-CycloneDX-0B0B0B?style=flat-square&logo=cyclonedx&logoColor=white" alt="SBOM - CycloneDX"/>
+  <img src="https://img.shields.io/badge/SBOM-Syft-222222?style=flat-square&logo=linux&logoColor=white" alt="SBOM - Syft"/>
+  <img src="https://img.shields.io/badge/Signing-Sigstore_Cosign-2E2E2E?style=flat-square&logo=sigstore&logoColor=white" alt="Signing - Cosign"/>
+  <img src="https://img.shields.io/badge/Secrets-Vault-000000?style=flat-square&logo=vault&logoColor=white" alt="Secrets - Vault"/>
+  <img src="https://img.shields.io/badge/Runtime-Falco-1A73E8?style=flat-square&logo=kubernetes&logoColor=white" alt="Runtime - Falco"/>
 </div>
 
 ## 🔨 Languages and Tools
