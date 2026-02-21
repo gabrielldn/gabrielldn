@@ -130,7 +130,6 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=gabrielldn&theme=radical" alt="repos per language"/>
 </div>
 
-Optional: Extra GitHub stats card
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=gabrielldn&theme=radical" alt="most commit language"/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=gabrielldn&theme=radical&utcOffset=-3" alt="productive time"/>
