@@ -13,21 +13,11 @@
   </a>
 </p>
 
-<!-- <div align="center">
+<div align="center">
   <em> Visitor count 👇</em>
   <br><br>
-  <img src="https://anime-page-counter.glitch.me/get/@:gabrielldn" alt=":gabrielldn"/>
-</div> -->
-
-<!-- Optional: Profile views counter (komarev.com) -->
-<!--
-<p align="center">
-  <img
-    src="https://komarev.com/ghpvc/?username=gabrielldn&label=Profile+views&color=blueviolet&style=flat-square&abbreviated=true"
-    alt="Profile views"
-  />
-</p>
--->
+  <img src="https://count.getloli.com/get/@:gabrielldn?theme=booru-r6gdrawfriends" alt="visitor count"/>
+</div>
 
 <br>
 
@@ -46,28 +36,26 @@
   </a>
 </div>
 
-<!--<div align="center">
-  <a href="https://www.buymeacoffee.com/gabrielldn" target="_blank">
+<div align="center">
+  <a href="https://github.com/gabrielldn" target="_blank">
     <img
-      src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-      alt="Buy Me A Coffee"
-      style="height: 60px !important;width: 217px !important;"
+      src="https://img.shields.io/badge/Follow-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
+      alt="Follow on GitHub"
     >
   </a>
 </div>
--->
 
 ## 🚀 Featured Projects
 
 <div align="center">
   <a href="https://github.com/gabrielldn/secure-gitops-platform">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gabrielldn&repo=secure-gitops-platform&theme=radical&hide_border=true" alt="secure-gitops-platform" />
+    <img src="https://img.shields.io/badge/Repo-secure--gitops--platform-181717?style=for-the-badge&logo=github&logoColor=white" alt="secure-gitops-platform" />
   </a>
   <a href="https://github.com/gabrielldn/java-api-with-otlp-sdk">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gabrielldn&repo=java-api-with-otlp-sdk&theme=radical&hide_border=true" alt="java-api-with-otlp-sdk" />
+    <img src="https://img.shields.io/badge/Repo-java--api--with--otlp--sdk-181717?style=for-the-badge&logo=github&logoColor=white" alt="java-api-with-otlp-sdk" />
   </a>
   <a href="https://github.com/gabrielldn/gh-summary">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gabrielldn&repo=gh-summary&theme=radical&hide_border=true" alt="gh-summary" />
+    <img src="https://img.shields.io/badge/Repo-gh--summary-181717?style=for-the-badge&logo=github&logoColor=white" alt="gh-summary" />
   </a>
 </div>
 
@@ -105,35 +93,28 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg" alt="DigitalOcean" width="40" height="40"/>
-
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" alt="Ansible" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt="Terraform" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vagrant/vagrant-original.svg" alt="Vagrant" width="40" height="40"/>
-
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/argocd/argocd-original.svg" alt="ArgoCD" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Actions" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" alt="GitLab CI/CD" width="40" height="40"/>
-
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/podman/podman-original.svg" alt="Podman" width="40" height="40"/>
-
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" alt="Prometheus" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" alt="Grafana" width="40" height="40"/>
-
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash" width="40" height="40"/>
-
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="Apache Kafka" width="40" height="40"/>
-
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" alt="Debian" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" width="40" height="40"/>
@@ -146,20 +127,23 @@
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gabrielldn&theme=radical" alt="profile-details"/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=gabrielldn&theme=radical" alt="stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=gabrielldn&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=10&theme=radical&hide_border=true&order=2" height="200" alt="languages graph"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=gabrielldn&theme=radical" alt="repos per language"/>
 </div>
 
-<!-- Optional: Extra GitHub stats card -->
-<!--
+Optional: Extra GitHub stats card
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gabrielldn&show_icons=true&theme=radical&hide_border=true" height="200" alt="github stats"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=gabrielldn&theme=radical" alt="most commit language"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=gabrielldn&theme=radical&utcOffset=-3" alt="productive time"/>
 </div>
--->
 
-<!-- ## ✍️ Latest Medium articles
+## ✍️ Latest Medium articles
 <div align="center">
   <a target="_blank" href="https://medium.com/@gabrielldn">
-    <img src="https://medium-writer-card.vercel.app/api/medium/user/index?name=gabrielldn" alt="medium user card">
+    <img src="https://img.shields.io/badge/Read%20my%20articles-on%20Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="read my Medium articles">
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a target="_blank" href="https://medium.com/@gabrielldn">
+    <img src="https://img.shields.io/badge/Follow-%40gabrielldn-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="follow on Medium">
   </a>
   &nbsp;&nbsp;&nbsp;
   <img src="https://github.com/gabrielldn/gabrielldn/blob/main/assets/749f.gif" height="300">
@@ -167,24 +151,22 @@
 <br>
 
 <div align="left">
-  <a target="_blank" href="https://github-readme-medium-recent-article-plugin.vercel.app/medium/@gabrielldn/0">
-    <img src="https://github-readme-medium-recent-article-plugin.vercel.app/medium/@gabrielldn/0" alt="Recent Article 1">
+  <a target="_blank" href="https://medium.com/@gabrielldn">
+    <img src="https://img.shields.io/badge/Medium-View%20latest%20posts-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Recent Article 1">
   </a>
-  <a target="_blank" href="https://github-readme-medium-recent-article-plugin.vercel.app/medium/@gabrielldn/1">
-    <img src="https://github-readme-medium-recent-article-plugin.vercel.app/medium/@gabrielldn/1" alt="Recent Article 2">
+  <a target="_blank" href="https://medium.com/@gabrielldn">
+    <img src="https://img.shields.io/badge/Medium-Open%20profile-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Recent Article 2">
   </a>
 </div>
--->
 
-<!-- ## 🏆 GitHub Trophies
-[![trophy](https://github-profile-trophy.vercel.app/?username=gabrielldn&theme=radical&title=MultiLanguage,Commits,Repositories,PullRequest)](https://github.com/gabrielldn/github-profile-trophy) -->
-
-<!-- ## 🥽 3-D Contribution graph
-<img src="https://github.com/gabrielldn/gabrielldn/blob/main/profile-3d-contrib/profile-night-rainbow.svg"/> -->
-
-<!-- - ## :octocat: GitHub Unwrapped 2023 (Click to see the full 🎥)
+## 🏆 GitHub Trophies
 <div align="center">
-  <a href="https://vimeo.com/897888293">
-    <img src="https://github.com/gabrielldn/gabrielldn/blob/main/assets/unwrapped.gif" alt="unwrapped 2023" height="500" width="400">
+  <img src="https://streak-stats.demolab.com?user=gabrielldn&theme=radical&hide_border=true" alt="github streak stats"/>
+</div>
+
+## GitHub Unwrapped 2025 (Click to see the full 🎥)
+<div align="center">
+  <a href="./assets/unwrapped-gabrielldn.mp4">
+    <img src="./assets/unwrapped.gif" alt="unwrapped 2023" height="500" width="400">
   </a>
-</div> -->
+</div>
