@@ -125,22 +125,7 @@
 
 <div align="center">
   <img src="./metrics.base.svg" alt="GitHub action-generated metrics"/>
-</div>
-
-## 🧠 GitHub Languages
-<div align="center">
   <img src="./metrics.plugin.languages.indepth.svg" alt="GitHub action-generated languages metrics"/>
-</div>
-
-## 🏆 GitHub Highlights
-<div align="center">
   <img src="./metrics.plugin.achievements.svg" alt="GitHub action-generated highlights" width="49%"/>
   <img src="./metrics.plugin.achievements.detailed.svg" alt="GitHub action-generated achievements detailed" width="49%"/>
 </div>
-
-<!-- ## GitHub Unwrapped 2025 (Click to see the full 🎥)
-<div align="center">
-  <a href="./assets/unwrapped-gabrielldn.mp4">
-    <img src="./assets/unwrapped.gif" alt="unwrapped 2025" height="500" width="400">
-  </a>
-</div> -->
