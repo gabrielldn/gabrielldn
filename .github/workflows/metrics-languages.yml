@@ -78,7 +78,7 @@ jobs:
             +gabrielldn/*
           commits_authoring: gabrielldn, GabrielLDN, Gabriel Lopes, gaellopes@protonmail.com, gabrielldn@users.noreply.github.com, 123586763+gabrielldn@users.noreply.github.com, 123586763+GabrielLDN@users.noreply.github.com
           plugin_languages: yes
-          plugin_languages_ignored: html, tsx, css, lua
+          plugin_languages_ignored: html, css, scss, tsx, typescript, typescript jsx, lua, HTML, CSS, SCSS, TSX, TypeScript, Lua
           plugin_languages_indepth: yes
           plugin_languages_indepth_custom: ${{ steps.indepth_repos.outputs.list }}
           plugin_languages_sections: most-used
