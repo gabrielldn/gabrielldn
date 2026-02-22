@@ -14,6 +14,45 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Build indepth repository list (pcce-redes + personal)
+        id: indepth_repos
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.PAT_PERSONAL_GAELLOPES || github.token }}
+          script: |
+            const allowedOwners = new Set(["pcce-redes", "gabrielldn"]);
+            const maxRepos = 60;
+            const repos = [];
+            const seen = new Set();
+
+            for (let page = 1; page <= 10; page++) {
+              const { data } = await github.rest.repos.listForAuthenticatedUser({
+                affiliation: "owner,collaborator,organization_member",
+                sort: "pushed",
+                direction: "desc",
+                per_page: 100,
+                page,
+              });
+
+              if (!data.length) break;
+
+              for (const repo of data) {
+                const owner = repo.owner && repo.owner.login ? repo.owner.login.toLowerCase() : "";
+                if (!allowedOwners.has(owner)) continue;
+                if (repo.archived || repo.disabled) continue;
+                if (seen.has(repo.full_name)) continue;
+                seen.add(repo.full_name);
+                repos.push(repo.full_name);
+                if (repos.length >= maxRepos) break;
+              }
+
+              if (repos.length >= maxRepos) break;
+            }
+
+            core.info(`Selected ${repos.length} repositories for indepth analysis.`);
+            core.info(repos.join(", "));
+            core.setOutput("list", repos.join(","));
+
       - name: Generate Languages Card (indepth, monthly)
         uses: lowlighter/metrics@latest
         with:
@@ -37,6 +76,7 @@ jobs:
           commits_authoring: gabrielldn, GabrielLDN, Gabriel Lopes, gaellopes@protonmail.com, gabrielldn@users.noreply.github.com, 123586763+gabrielldn@users.noreply.github.com
           plugin_languages: yes
           plugin_languages_indepth: yes
+          plugin_languages_indepth_custom: ${{ steps.indepth_repos.outputs.list }}
           plugin_languages_sections: most-used
           plugin_languages_details: lines, bytes-size, percentage
           plugin_languages_recent_days: 30
