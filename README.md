@@ -135,6 +135,11 @@
   <img src="./metrics.base.svg" alt="GitHub action-generated metrics"/>
 </div>
 
+## 🧠 GitHub Languages
+<div align="center">
+  <img src="./metrics.plugin.languages.indepth.svg" alt="GitHub action-generated languages metrics"/>
+</div>
+
 ## 🏆 GitHub Highlights
 <div align="center">
   <img src="./metrics.plugin.achievements.svg" alt="GitHub action-generated highlights"/>
