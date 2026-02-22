@@ -45,7 +45,7 @@
   </a>
 </div>
 
-## 🚀 Featured Projects
+## 📌 Pinned Projects
 
 <div align="center">
   <img src="./metrics.plugin.repositories.pinned.svg" alt="GitHub action-generated pinned repositories"/>
