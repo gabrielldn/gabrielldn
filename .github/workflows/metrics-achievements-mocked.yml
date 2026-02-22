@@ -1,0 +1,210 @@
+name: Metrics Achievements Mocked (Manual)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate_mocked_achievements:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate mocked achievements card from GitHub API
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.PAT_PERSONAL_GAELLOPES || github.token }}
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const branch = "main";
+            const path = "metrics.plugin.achievements.mocked.svg";
+            const username = "gabrielldn";
+
+            const now = new Date();
+            const to = now.toISOString();
+            const from = new Date(now.getTime() - 365 * 24 * 60 * 60 * 1000).toISOString();
+
+            const esc = (value) => String(value ?? "")
+              .replace(/&/g, "&amp;")
+              .replace(/</g, "&lt;")
+              .replace(/>/g, "&gt;")
+              .replace(/"/g, "&quot;");
+
+            const tier = (value, [bronze, silver, gold, platinum]) => {
+              if (value >= platinum) return "Platinum";
+              if (value >= gold) return "Gold";
+              if (value >= silver) return "Silver";
+              if (value >= bronze) return "Bronze";
+              return "Starter";
+            };
+
+            const tierWeight = (name) => {
+              const weights = { Platinum: 5, Gold: 4, Silver: 3, Bronze: 2, Starter: 1 };
+              return weights[name] || 0;
+            };
+
+            const { data: profile } = await github.rest.users.getByUsername({ username });
+
+            const graph = await github.graphql(
+              `
+              query($login: String!, $from: DateTime!, $to: DateTime!) {
+                user(login: $login) {
+                  repositories(first: 100, privacy: PUBLIC, affiliations: OWNER, orderBy: { field: STARGAZERS, direction: DESC }) {
+                    totalCount
+                    nodes {
+                      nameWithOwner
+                      stargazerCount
+                      forkCount
+                    }
+                  }
+                  organizations(first: 100) {
+                    totalCount
+                  }
+                  contributionsCollection(from: $from, to: $to) {
+                    contributionCalendar {
+                      totalContributions
+                    }
+                    totalCommitContributions
+                    totalIssueContributions
+                    totalPullRequestContributions
+                    totalPullRequestReviewContributions
+                  }
+                }
+              }
+              `,
+              { login: username, from, to }
+            );
+
+            if (!graph.user) {
+              core.setFailed(`Could not resolve user ${username} from GraphQL.`);
+              return;
+            }
+
+            const repos = graph.user.repositories?.nodes || [];
+            const starsTotal = repos.reduce((sum, item) => sum + (item.stargazerCount || 0), 0);
+            const forksTotal = repos.reduce((sum, item) => sum + (item.forkCount || 0), 0);
+            const topRepo = repos.length ? repos[0] : null;
+
+            const contributions = graph.user.contributionsCollection || {};
+            const achievementsPool = [
+              {
+                title: "Contributions (last 12 months)",
+                value: contributions.contributionCalendar?.totalContributions || 0,
+                thresholds: [500, 1500, 3000, 4500],
+              },
+              {
+                title: "Public repositories",
+                value: graph.user.repositories?.totalCount || profile.public_repos || 0,
+                thresholds: [10, 25, 50, 100],
+              },
+              {
+                title: "Total stars in public repositories",
+                value: starsTotal,
+                thresholds: [50, 150, 400, 800],
+              },
+              {
+                title: "Followers",
+                value: profile.followers || 0,
+                thresholds: [10, 25, 50, 100],
+              },
+              {
+                title: "PRs opened (last 12 months)",
+                value: contributions.totalPullRequestContributions || 0,
+                thresholds: [20, 100, 250, 500],
+              },
+              {
+                title: "PR reviews (last 12 months)",
+                value: contributions.totalPullRequestReviewContributions || 0,
+                thresholds: [10, 50, 150, 300],
+              },
+              {
+                title: "Issues opened (last 12 months)",
+                value: contributions.totalIssueContributions || 0,
+                thresholds: [10, 50, 120, 250],
+              },
+              {
+                title: "Commit contributions (last 12 months)",
+                value: contributions.totalCommitContributions || 0,
+                thresholds: [100, 500, 1500, 2500],
+              },
+              {
+                title: "Organizations",
+                value: graph.user.organizations?.totalCount || 0,
+                thresholds: [1, 3, 5, 8],
+              },
+              {
+                title: "Total forks in public repositories",
+                value: forksTotal,
+                thresholds: [20, 80, 200, 500],
+              },
+            ];
+
+            const rankedAchievements = achievementsPool
+              .map((item) => ({ ...item, tier: tier(item.value, item.thresholds) }))
+              .sort((a, b) => tierWeight(b.tier) - tierWeight(a.tier) || b.value - a.value)
+              .slice(0, 6);
+
+            const lineHeight = 24;
+            const baseY = 84;
+            const rows = rankedAchievements.map((item, index) => {
+              const y = baseY + (index * lineHeight);
+              return [
+                `<text x="20" y="${y}" class="label">${index + 1}. ${esc(item.title)}</text>`,
+                `<text x="460" y="${y}" class="value">${esc(item.value)} (${esc(item.tier)})</text>`,
+              ].join("");
+            }).join("");
+
+            const topRepoLabel = topRepo
+              ? `${topRepo.nameWithOwner} (${topRepo.stargazerCount} stars)`
+              : "n/a";
+
+            const updatedAt = now.toISOString().replace("T", " ").replace("Z", " UTC");
+
+            const svg = `<?xml version="1.0" encoding="UTF-8"?>
+            <svg xmlns="http://www.w3.org/2000/svg" width="480" height="250" viewBox="0 0 480 250" role="img" aria-label="Mocked achievements from GitHub API">
+              <defs>
+                <style>
+                  .bg{fill:#0d1117}
+                  .title{fill:#58a6ff;font:700 18px 'Segoe UI',Ubuntu,Sans-Serif}
+                  .sub{fill:#8b949e;font:12px 'Segoe UI',Ubuntu,Sans-Serif}
+                  .label{fill:#c9d1d9;font:600 12px 'Segoe UI',Ubuntu,Sans-Serif}
+                  .value{fill:#79c0ff;font:600 12px 'Segoe UI',Ubuntu,Sans-Serif;text-anchor:end}
+                  .sep{stroke:#30363d;stroke-width:1}
+                </style>
+              </defs>
+              <rect class="bg" x="0" y="0" width="480" height="250" rx="8"/>
+              <text x="20" y="32" class="title">GitHub Achievements (Mocked from API)</text>
+              <text x="20" y="52" class="sub">Top 6 ranked signals from GitHub REST + GraphQL | Manual generation only</text>
+              <line class="sep" x1="20" y1="64" x2="460" y2="64"/>
+              ${rows}
+              <line class="sep" x1="20" y1="232" x2="460" y2="232"/>
+              <text x="20" y="246" class="sub">Top repo: ${esc(topRepoLabel)} | Updated: ${esc(updatedAt)}</text>
+            </svg>
+            <!-- metrics-refresh: run=${context.runId} at=${now.toISOString()} -->`;
+
+            let sha;
+            try {
+              const current = await github.rest.repos.getContent({
+                owner,
+                repo,
+                path,
+                ref: `heads/${branch}`,
+              });
+              if (!Array.isArray(current.data)) {
+                sha = current.data.sha;
+              }
+            } catch (error) {
+              if (error.status !== 404) throw error;
+            }
+
+            await github.rest.repos.createOrUpdateFileContents({
+              owner,
+              repo,
+              path,
+              message: `chore(metrics): update mocked achievements card (run ${context.runId}) [skip ci]`,
+              content: Buffer.from(svg, "utf8").toString("base64"),
+              sha,
+              branch,
+            });
