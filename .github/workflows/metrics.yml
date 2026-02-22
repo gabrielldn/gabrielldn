@@ -2,7 +2,9 @@ name: Metrics
 
 on:
   schedule:
-    - cron: "0 4 * * *"
+    # 00:00 and 12:00 at America/Fortaleza (UTC-3)
+    - cron: "0 3 * * *"
+    - cron: "0 15 * * *"
   workflow_dispatch:
 
 permissions:
@@ -19,6 +21,9 @@ jobs:
           filename: metrics.base.svg
           user: gabrielldn
           token: ${{ secrets.PAT_PERSONAL_GAELLOPES || github.token }}
+          committer_token: ${{ secrets.PAT_PERSONAL_GAELLOPES || github.token }}
+          committer_branch: main
+          output_action: commit
           base: header, activity, community, repositories, metadata
           base_indepth: yes
           config_timezone: America/Fortaleza
@@ -36,6 +41,9 @@ jobs:
           filename: metrics.plugin.achievements.svg
           user: gabrielldn
           token: ${{ secrets.PAT_PERSONAL_GAELLOPES || github.token }}
+          committer_token: ${{ secrets.PAT_PERSONAL_GAELLOPES || github.token }}
+          committer_branch: main
+          output_action: commit
           base: ""
           plugin_achievements: yes
           plugin_achievements_secrets: yes
