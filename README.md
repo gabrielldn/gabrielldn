@@ -134,7 +134,8 @@
 
 ## 🏆 GitHub Highlights
 <div align="center">
-  <img src="./metrics.plugin.achievements.svg" alt="GitHub action-generated highlights"/>
+  <img src="./metrics.plugin.achievements.svg" alt="GitHub action-generated highlights" width="49%"/>
+  <img src="./metrics.plugin.achievements.detailed.svg" alt="GitHub action-generated achievements detailed" width="49%"/>
 </div>
 
 <!-- ## GitHub Unwrapped 2025 (Click to see the full 🎥)
