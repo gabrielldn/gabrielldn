@@ -115,7 +115,14 @@ jobs:
             }
 
             const decoded = Buffer.from(file.content, "base64").toString("utf8");
-            const decorated = decoded.replace(/<small id="metrics-window">[^<]*<\/small>/, "");
+            let decorated = decoded.replace(/<small id="metrics-window">[^<]*<\/small>/, "");
+
+            // The plugin may occasionally output "0 Languages" in header while rendering rows correctly.
+            // Keep the title consistent with visible language rows in the card.
+            const visibleLanguages = (decorated.match(/class="field language details"/g) || []).length;
+            if (visibleLanguages > 0) {
+              decorated = decorated.replace(/>\s*\d+\s+Languages\s*</, `>${visibleLanguages} Languages<`);
+            }
 
             const marker = /<!-- metrics-refresh:[^>]*-->/;
             const stamp = `<!-- metrics-refresh: run=${context.runId} at=${new Date().toISOString()} -->`;
