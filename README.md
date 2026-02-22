@@ -48,15 +48,7 @@
 ## 🚀 Featured Projects
 
 <div align="center">
-  <a href="https://github.com/gabrielldn/secure-gitops-platform">
-    <img src="https://img.shields.io/badge/Repo-secure--gitops--platform-181717?style=for-the-badge&logo=github&logoColor=white" alt="secure-gitops-platform" />
-  </a>
-  <a href="https://github.com/gabrielldn/java-api-with-otlp-sdk">
-    <img src="https://img.shields.io/badge/Repo-java--api--with--otlp--sdk-181717?style=for-the-badge&logo=github&logoColor=white" alt="java-api-with-otlp-sdk" />
-  </a>
-  <a href="https://github.com/gabrielldn/gh-summary">
-    <img src="https://img.shields.io/badge/Repo-gh--summary-181717?style=for-the-badge&logo=github&logoColor=white" alt="gh-summary" />
-  </a>
+  <img src="./metrics.plugin.repositories.pinned.svg" alt="GitHub action-generated pinned repositories"/>
 </div>
 
 ## 😊 About Me
