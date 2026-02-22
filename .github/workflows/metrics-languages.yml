@@ -80,6 +80,7 @@ jobs:
           commits_authoring: gabrielldn, GabrielLDN, Gabriel Lopes, gaellopes, Gael Lopes, gaellopes@protonmail.com, gabrielldn@users.noreply.github.com, gaellopes@users.noreply.github.com, 123586763+gabrielldn@users.noreply.github.com, 123586763+GabrielLDN@users.noreply.github.com, 123586763+gaellopes@users.noreply.github.com
           plugin_languages: yes
           plugin_languages_ignored: __hidden, html, css, scss, tsx, typescript, typescript jsx, lua, HTML, CSS, SCSS, TSX, TypeScript, Lua
+          plugin_languages_colors: 0:#e11d48, 1:#f59e0b, 2:#22c55e, 3:#06b6d4, 4:#3b82f6, 5:#8b5cf6, 6:#f97316, 7:#14b8a6
           plugin_languages_aliases: html:__hidden, css:__hidden, scss:__hidden, tsx:__hidden, typescript jsx:__hidden, typescript:__hidden, lua:__hidden
           plugin_languages_indepth: yes
           plugin_languages_indepth_custom: ${{ steps.indepth_repos.outputs.list }}
