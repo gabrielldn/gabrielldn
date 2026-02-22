@@ -61,13 +61,13 @@
   alt="coding gif"
 />
 
-- 🔭 **DevOps Tech Lead (Public Sector | Ceará, BR)** — Platform Engineering, GitOps e CI/CD Security (SAST/SCA/DAST/IAST).
-- 🔐 **DevSecOps na prática** — quality gates, supply chain (SBOM + assinatura), secrets management e hardening.
-- 🚀 **Release engineering** — blue/green, canary e rollback rápido (Kubernetes / Docker / Swarm).
-- 📈 **Observability** — OpenTelemetry + métricas/logs/traces com dashboards e alertas acionáveis.
-- ⚙️ **IaC & automação** — Terraform/OpenTofu, Ansible e Bash para infra reprodutível e segura.
-- 💬 Bora trocar ideia sobre DevOps/DevSecOps/GitOps/Full Cycle.
-- ✍️ Escrevo no Medium sobre tecnologia, DevSecOps e segurança.
+- 🔭 **DevOps Tech Lead (Public Sector | Ceará, BR)** — Platform Engineering, GitOps, and CI/CD Security (SAST/SCA/DAST/IAST).
+- 🔐 **Hands-on DevSecOps** — quality gates, supply chain security (SBOM + signing), secrets management, and hardening.
+- 🚀 **Release engineering** — blue/green, canary, and fast rollback (Kubernetes / Docker / Swarm).
+- 📈 **Observability** — OpenTelemetry + metrics/logs/traces with actionable dashboards and alerts.
+- ⚙️ **IaC & automation** — Terraform/OpenTofu, Ansible, and Bash for reproducible and secure infrastructure.
+- 💬 Let's talk about DevOps/DevSecOps/GitOps/Full Cycle.
+- ✍️ I write on Medium about technology, DevSecOps, and security.
 
 ## 🔐 Security & Quality Gates (DevSecOps)
 
