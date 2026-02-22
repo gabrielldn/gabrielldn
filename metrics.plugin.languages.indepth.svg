@@ -15,7 +15,7 @@
                 </h2>
             </section>
             <section class="column">
-                <h3 class="field">Most used languages</h3>
+                <h3 class="field">Most used languages</h3><small id="metrics-window">activity window: last 90 days</small>
                 <small>estimation from 2.59mb of code in 471 edited files across 130 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
@@ -144,3 +144,4 @@
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
     </foreignObject>
 </svg>
+<!-- metrics-refresh: run=22271108862 at=2026-02-22T05:24:40.488Z -->
