@@ -25,6 +25,7 @@ jobs:
           output_action: commit
           base: ""
           config_timezone: America/Fortaleza
+          repositories: 500
           repositories_forks: yes
           repositories_affiliations: owner, collaborator, organization_member
           commits_authoring: gabrielldn, Gabriel Lopes, gaellopes@protonmail.com, gabrielldn@users.noreply.github.com
@@ -32,6 +33,7 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_sections: most-used
           plugin_languages_details: lines, bytes-size, percentage
+          plugin_languages_recent_days: 30
           plugin_languages_limit: 8
-          plugin_languages_analysis_timeout: 20
-          plugin_languages_analysis_timeout_repositories: 8
+          plugin_languages_analysis_timeout: 45
+          plugin_languages_analysis_timeout_repositories: 12
