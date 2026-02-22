@@ -21,11 +21,12 @@ jobs:
           github-token: ${{ secrets.PAT_PERSONAL_GAELLOPES || github.token }}
           script: |
             const allowedOwners = new Set(["pcce-redes", "gabrielldn"]);
-            const maxRepos = 60;
+            const maxRepos = 260;
             const repos = [];
             const seen = new Set();
+            const ownerCount = { "pcce-redes": 0, "gabrielldn": 0 };
 
-            for (let page = 1; page <= 10; page++) {
+            for (let page = 1; page <= 40; page++) {
               const { data } = await github.rest.repos.listForAuthenticatedUser({
                 affiliation: "owner,collaborator,organization_member",
                 sort: "pushed",
@@ -43,6 +44,7 @@ jobs:
                 if (seen.has(repo.full_name)) continue;
                 seen.add(repo.full_name);
                 repos.push(repo.full_name);
+                ownerCount[owner] = (ownerCount[owner] || 0) + 1;
                 if (repos.length >= maxRepos) break;
               }
 
@@ -50,6 +52,7 @@ jobs:
             }
 
             core.info(`Selected ${repos.length} repositories for indepth analysis.`);
+            core.info(`Owner distribution: pcce-redes=${ownerCount["pcce-redes"]}, gabrielldn=${ownerCount["gabrielldn"]}`);
             core.info(repos.join(", "));
             core.setOutput("list", repos.join(","));
 
@@ -82,8 +85,8 @@ jobs:
           plugin_languages_recent_days: 90
           plugin_languages_recent_load: 1000
           plugin_languages_limit: 8
-          plugin_languages_analysis_timeout: 45
-          plugin_languages_analysis_timeout_repositories: 12
+          plugin_languages_analysis_timeout: 120
+          plugin_languages_analysis_timeout_repositories: 20
 
       - name: Force overwrite languages SVG on main
         uses: actions/github-script@v7
