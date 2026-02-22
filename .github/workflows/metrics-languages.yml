@@ -29,7 +29,6 @@ jobs:
           repositories_affiliations: owner, collaborator, organization_member
           repositories_skipped: >-
             @use.patterns,
-            -pcce-redes/*,
             -desenvolvimentodeticpcce/*
           commits_authoring: gabrielldn, Gabriel Lopes, gaellopes@protonmail.com, gabrielldn@users.noreply.github.com
           plugin_languages: yes
