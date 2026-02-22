@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="250" viewBox="0 0 480 250" role="img" aria-label="Mocked achievements from GitHub API">
+  <defs>
+    <style>
+      .bg{fill:#0d1117}
+      .title{fill:#58a6ff;font:700 18px 'Segoe UI',Ubuntu,Sans-Serif}
+      .sub{fill:#8b949e;font:12px 'Segoe UI',Ubuntu,Sans-Serif}
+      .label{fill:#c9d1d9;font:600 12px 'Segoe UI',Ubuntu,Sans-Serif}
+      .value{fill:#79c0ff;font:600 12px 'Segoe UI',Ubuntu,Sans-Serif;text-anchor:end}
+      .sep{stroke:#30363d;stroke-width:1}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="480" height="250" rx="8"/>
+  <text x="20" y="32" class="title">GitHub Achievements (Mocked from API)</text>
+  <text x="20" y="52" class="sub">Top 6 ranked signals from GitHub REST + GraphQL | Manual generation only</text>
+  <line class="sep" x1="20" y1="64" x2="460" y2="64"/>
+  <text x="20" y="84" class="label">1. Contributions (last 12 months)</text><text x="460" y="84" class="value">4975 (Platinum)</text><text x="20" y="108" class="label">2. Commit contributions (last 12 months)</text><text x="460" y="108" class="value">4034 (Platinum)</text><text x="20" y="132" class="label">3. Issues opened (last 12 months)</text><text x="460" y="132" class="value">613 (Platinum)</text><text x="20" y="156" class="label">4. Organizations</text><text x="460" y="156" class="value">9 (Platinum)</text><text x="20" y="180" class="label">5. PRs opened (last 12 months)</text><text x="460" y="180" class="value">272 (Gold)</text><text x="20" y="204" class="label">6. Followers</text><text x="460" y="204" class="value">31 (Silver)</text>
+  <line class="sep" x1="20" y1="232" x2="460" y2="232"/>
+  <text x="20" y="246" class="sub">Top repo: gabrielldn/local-ai-gpu-docker-stack (1 stars) | Updated: 2026-02-22 15:54:21.177 UTC</text>
+</svg>
+<!-- metrics-refresh: run=22280353088 at=2026-02-22T15:54:21.177Z -->
