@@ -1,0 +1,43 @@
+name: Metrics Languages (Monthly)
+
+on:
+  schedule:
+    # 00:00 at America/Fortaleza (UTC-3), day 1 of each month
+    - cron: "0 3 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate_languages_indepth:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate Languages Card (indepth, monthly)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.indepth.svg
+          user: gabrielldn
+          token: ${{ secrets.PAT_PERSONAL_GAELLOPES || github.token }}
+          committer_token: ${{ secrets.PAT_PERSONAL_GAELLOPES || github.token }}
+          committer_branch: main
+          output_action: commit
+          base: ""
+          config_timezone: America/Fortaleza
+          repositories_forks: yes
+          repositories_affiliations: owner, collaborator, organization_member
+          repositories_skipped: >-
+            @use.patterns,
+            -pcce-redes/*,
+            -desenvolvimentodeticpcce/*
+          commits_authoring: gabrielldn, Gabriel Lopes, gaellopes@protonmail.com, gabrielldn@users.noreply.github.com
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_sections: recently-used
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_load: 300
+          plugin_languages_recent_days: 90
+          plugin_languages_limit: 8
+          plugin_languages_analysis_timeout: 20
+          plugin_languages_analysis_timeout_repositories: 8
