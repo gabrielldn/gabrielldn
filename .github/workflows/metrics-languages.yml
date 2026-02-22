@@ -125,6 +125,9 @@ jobs:
               decorated = decorated.replace(/>\s*\d+\s+Languages\s*</, `>${visibleLanguages} Languages<`);
             }
 
+            // Rename section title to avoid suggesting full historical usage.
+            decorated = decorated.replace(/>Most used languages</gi, ">Recently Used Languages<");
+
             const marker = /<!-- metrics-refresh:[^>]*-->/;
             const stamp = `<!-- metrics-refresh: run=${context.runId} at=${new Date().toISOString()} -->`;
             const updated = marker.test(decorated)
