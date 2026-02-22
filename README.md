@@ -124,8 +124,16 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="./metrics.base.svg" alt="GitHub action-generated metrics"/>
-  <img src="./metrics.plugin.languages.indepth.svg" alt="GitHub action-generated languages metrics"/>
+  <table align="center" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td valign="top">
+        <img src="./metrics.base.svg" alt="GitHub action-generated metrics"/>
+      </td>
+      <td valign="top">
+        <img src="./metrics.plugin.languages.indepth.svg" alt="GitHub action-generated languages metrics"/>
+      </td>
+    </tr>
+  </table>
   <img src="./metrics.plugin.achievements.svg" alt="GitHub action-generated highlights" width="49%"/>
   <img src="./metrics.plugin.achievements.detailed.svg" alt="GitHub action-generated achievements detailed" width="49%"/>
 </div>
