@@ -109,17 +109,7 @@ jobs:
             }
 
             const decoded = Buffer.from(file.content, "base64").toString("utf8");
-            const windowLabel = `<small id="metrics-window">activity window: last 90 days</small>`;
-            const windowPattern = /<small id="metrics-window">[^<]*<\/small>/;
-            let decorated = decoded;
-            if (windowPattern.test(decorated)) {
-              decorated = decorated.replace(windowPattern, windowLabel);
-            } else {
-              decorated = decorated.replace(
-                `<h3 class="field">Most used languages</h3>`,
-                `<h3 class="field">Most used languages</h3>${windowLabel}`,
-              );
-            }
+            const decorated = decoded.replace(/<small id="metrics-window">[^<]*<\/small>/, "");
 
             const marker = /<!-- metrics-refresh:[^>]*-->/;
             const stamp = `<!-- metrics-refresh: run=${context.runId} at=${new Date().toISOString()} -->`;
