@@ -51,6 +51,19 @@
   <img src="./metrics.plugin.repositories.pinned.svg" alt="GitHub action-generated pinned repositories"/>
 </div>
 
+## 🔗 End-to-End Platform Story
+
+The core repos are now connected as one production-like narrative:
+
+- [`secure-gitops-platform`](https://github.com/gabrielldn/secure-gitops-platform)  
+  GitOps governance, policy-as-code, SBOM/scan/sign/attest supply chain, and Argo Rollouts canary gates.
+- [`java-api-with-otlp-sdk`](https://github.com/gabrielldn/java-api-with-otlp-sdk)  
+  Instrumented Java workload (OTel + Prometheus metrics) deployed by GitOps with progressive rollout analysis.
+- [`postgres-ha-chaos-lab`](https://github.com/gabrielldn/postgres-ha-chaos-lab)  
+  HA Postgres backend (Patroni/etcd/HAProxy + chaos scenarios) consumed by the Java workload.
+
+Flow: **code -> secure CI/release -> signed digest deploy -> canary analysis/rollback -> HA database evidence**.
+
 ## 😊 About Me
 
 <img
