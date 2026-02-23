@@ -77,7 +77,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>gabrielldn/secure-gitops-platform</span>
-                                        <span>created 1 day ago</span>
+                                        <span>created 2 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Production-like DevSecOps platform on local Kubernetes (k3d, 3 clusters): GitOps, progressive delivery, policy-as-code, secure supply chain, Vault/ESO secrets, Step-CA PKI, and SLO-driven observability.</div>
