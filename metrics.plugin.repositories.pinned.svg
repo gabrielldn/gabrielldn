@@ -183,7 +183,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>gabrielldn/postgres-ha-chaos-lab</span>
-                                        <span>created 18 hours ago</span>
+                                        <span>created 21 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Lab production-like de HA/DR/Chaos para PostgreSQL 17 com Patroni, etcd, HAProxy, pgBackRest e MinIO, com evidências práticas de failover, quorum safety, lag e PITR.</div>
