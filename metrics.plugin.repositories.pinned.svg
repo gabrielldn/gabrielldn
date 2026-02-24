@@ -77,7 +77,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>gabrielldn/secure-gitops-platform</span>
-                                        <span>created 2 days ago</span>
+                                        <span>created 3 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Production-like DevSecOps platform on local Kubernetes (k3d, 3 clusters): GitOps, progressive delivery, policy-as-code, secure supply chain, Vault/ESO secrets, Step-CA PKI, and SLO-driven observability.</div>
@@ -183,7 +183,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>gabrielldn/postgres-ha-chaos-lab</span>
-                                        <span>created 21 hours ago</span>
+                                        <span>created 1 day ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Lab production-like de HA/DR/Chaos para PostgreSQL 17 com Patroni, etcd, HAProxy, pgBackRest e MinIO, com evidências práticas de failover, quorum safety, lag e PITR.</div>
