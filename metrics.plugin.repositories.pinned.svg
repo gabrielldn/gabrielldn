@@ -183,7 +183,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>gabrielldn/postgres-ha-chaos-lab</span>
-                                        <span>created 29 days ago</span>
+                                        <span>created Feb 22 2026</span>
                                     </div>
                                 </div>
                                 <div class="field description">Lab production-like de HA/DR/Chaos para PostgreSQL 17 com Patroni, etcd, HAProxy, pgBackRest e MinIO, com evidências práticas de failover, quorum safety, lag e PITR.</div>
@@ -236,7 +236,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>gabrielldn/gh-multiagent</span>
-                                        <span>created 4 days ago</span>
+                                        <span>created 5 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
