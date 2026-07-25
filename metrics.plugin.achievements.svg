@@ -753,10 +753,10 @@
                                 <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.7972972972972974 0,1.7972972972972974 z"/>
                                 <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.7972972972972974 1.7,2.7972972972972974 z"/>
                             </g>
-                            <g transform="translate(-5.1, 8.58108108108108)">
+                            <g transform="translate(-5.1, 8.594594594594595)">
                                 <path fill="#30a14e" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#30a14e" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.418918918918919 0,1.4189189189189189 z"/>
-                                <path fill="#30a14e" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.4189189189189189 1.7,2.418918918918919 z"/>
+                                <path fill="#30a14e" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.4054054054054053 0,1.4054054054054055 z"/>
+                                <path fill="#30a14e" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.4054054054054055 1.7,2.4054054054054053 z"/>
                             </g>
                             <g transform="translate(-6.8, 9.513513513513512)">
                                 <path fill="#30a14e" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
